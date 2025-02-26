@@ -21,4 +21,8 @@ public class Caja {
     public boolean isFree() {
         return currentCustomer == null;
     }
+
+    public int getRemainingItems() {
+        return remainingTime;
+    }
 }
